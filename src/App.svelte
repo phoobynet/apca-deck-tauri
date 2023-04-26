@@ -41,19 +41,14 @@
 </script>
 
 <main>
-  <header>
-    <h1 class="text-2xl font-bold tracking-widest">Foo</h1>
-  </header>
-  <div class="demo">
-    <Tags
-      {options}
-      {tags}
-      {placeholder}
-      on:query={onQuery}
-      on:selected={onSelected}
-      on:deleted={onDeleted}
-    />
-  </div>
+  <Tags
+    {options}
+    {tags}
+    {placeholder}
+    on:query={onQuery}
+    on:selected={onSelected}
+    on:deleted={onDeleted}
+  />
 </main>
 
 <style lang="scss">
